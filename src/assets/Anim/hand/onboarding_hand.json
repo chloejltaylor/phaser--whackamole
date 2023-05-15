@@ -1,0 +1,135 @@
+{
+  "skeleton": {
+    "hash": "lXP4OZVeBEXAj/qlIzSr1txfSIU",
+    "spine": "3.8.95",
+    "x": -49,
+    "y": -1.5,
+    "width": 98,
+    "height": 146
+  },
+  "bones": [
+    { "name": "root" },
+    { "name": "hand", "parent": "root", "length": 46.01, "rotation": 90, "y": 97 }
+  ],
+  "slots": [{ "name": "hand", "bone": "hand", "attachment": "hand" }],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "hand": { "hand": { "x": -25.5, "rotation": -90, "width": 98, "height": 146 } }
+      }
+    }
+  ],
+  "animations": {
+    "01_tap": {
+      "slots": {
+        "hand": {
+          "color": [
+            { "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+            { "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+            { "time": 0.9333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+            { "time": 1.1, "color": "ffffff00" }
+          ]
+        }
+      },
+      "bones": {
+        "hand": {
+          "rotate": [
+            { "curve": "stepped" },
+            { "time": 0.4333, "curve": "stepped" },
+            { "time": 0.7667, "curve": "stepped" },
+            { "time": 1.1 }
+          ],
+          "translate": [
+            { "y": 151, "curve": 0.626, "c3": 0.75 },
+            { "time": 0.4333, "y": -0.2, "curve": 0.25, "c3": 0.75 },
+            { "time": 0.5, "x": 1.47, "y": -9.01, "curve": "stepped" },
+            {
+              "time": 0.7,
+              "x": 1.47,
+              "y": -9.01,
+              "curve": 0.442,
+              "c2": 0.44,
+              "c3": 0.656
+            },
+            { "time": 0.7667, "y": -0.2, "curve": 0.498, "c3": 0.75 },
+            { "time": 1.1, "y": 151 }
+          ],
+          "scale": [
+            { "curve": "stepped" },
+            { "time": 0.4333 },
+            { "time": 0.5, "x": 0.912, "y": 1.073, "curve": "stepped" },
+            {
+              "time": 0.7,
+              "x": 0.912,
+              "y": 1.073,
+              "curve": 0.429,
+              "c2": 0.46,
+              "c3": 0.651
+            },
+            { "time": 0.7667, "curve": "stepped" },
+            { "time": 1.1 }
+          ],
+          "shear": [{ "curve": "stepped" }, { "time": 1.1 }]
+        }
+      }
+    },
+    "02_drag": {
+      "slots": {
+        "hand": {
+          "color": [
+            { "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+            { "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+            { "time": 0.7667, "color": "ffffffff", "curve": "stepped" },
+            { "time": 0.8, "color": "ffffffff" }
+          ]
+        }
+      },
+      "bones": {
+        "hand": {
+          "rotate": [
+            { "curve": "stepped" },
+            { "time": 0.4333, "curve": "stepped" },
+            { "time": 0.7667, "curve": "stepped" },
+            { "time": 0.8 }
+          ],
+          "translate": [
+            { "y": 151, "curve": 0.626, "c3": 0.75 },
+            { "time": 0.4333, "y": -0.2, "curve": 0.25, "c3": 0.75 },
+            { "time": 0.5, "x": 1.47, "y": -9.01, "curve": "stepped" },
+            {
+              "time": 0.7,
+              "x": 1.47,
+              "y": -9.01,
+              "curve": 0.442,
+              "c2": 0.44,
+              "c3": 0.656
+            },
+            { "time": 0.7667, "y": -0.2, "curve": "stepped" },
+            { "time": 0.8, "y": -0.2 }
+          ],
+          "scale": [
+            { "curve": "stepped" },
+            { "time": 0.4333 },
+            { "time": 0.5, "x": 0.912, "y": 1.073, "curve": "stepped" },
+            {
+              "time": 0.7,
+              "x": 0.912,
+              "y": 1.073,
+              "curve": 0.429,
+              "c2": 0.46,
+              "c3": 0.651
+            },
+            { "time": 0.7667, "curve": "stepped" },
+            { "time": 0.8 }
+          ],
+          "shear": [
+            { "curve": "stepped" },
+            { "time": 0.7667, "curve": "stepped" },
+            { "time": 0.8 }
+          ]
+        }
+      }
+    }
+  }
+}
